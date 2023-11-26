@@ -5,9 +5,10 @@ nav {
 
 }
 
-.navbar .logo{
+.navbar .logo {
     border-radius: 70px;
 }
+
 a {
     color: white;
     margin: 10px;
@@ -21,6 +22,7 @@ a {
 body {
     font-family: Verdana, sans-serif;
     margin: 0;
+    padding: 0;
     /* background-color: rgb(86, 56, 16); */
 }
 
@@ -37,6 +39,7 @@ img {
     max-width: 1500px;
     position: relative;
     margin: auto;
+
 }
 
 /* Next & previous buttons */
@@ -70,7 +73,7 @@ img {
 
 /* Caption text */
 .text {
-    color: white;
+    color: black;
     font-size: 50px;
     padding: 8px 12px;
     position: absolute;
@@ -78,6 +81,11 @@ img {
     width: 100%;
     text-align: center;
 
+}
+
+.text:hover {
+    background-color: wheat;
+    color: rgb(6, 6, 92);
 }
 
 /* Number text (1/3 etc) */
@@ -155,7 +163,7 @@ button {
     background-color: rgb(86, 56, 16);
     font-size: 20px;
     border-radius: 40px;
-   margin-left: 90px;
+    margin-left: 90px;
 }
 
 
@@ -221,17 +229,23 @@ button:hover {
 
 
 /*form*/
-.myform {
+#myform {
     display: flex;
     flex-direction: column;
     background-color: rgb(233, 190, 137);
     border-radius: 3px;
     padding: 1em;
+    height: 100vh;
+    align-items: center;
 }
 
 .row {
     display: flex;
     justify-content: center;
+    margin-top: 4em;
+    background-color: rgb(243, 161, 61);
+    padding: 20px;
+    border-radius: 24px;
 }
 
 .column {
@@ -249,22 +263,28 @@ button:hover {
     padding: .5em 0;
 }
 
-.myform input,
-.myform select {
+#myform input,
+#myform select {
     flex: 6;
     padding: .3em;
     margin-bottom: 1em;
 }
 
-.myform button {
+#myform button {
     padding: 0.60em;
     background-color: rgb(86, 56, 16);
     color: white;
-    border: 1px solid rgb(100, 89, 14);
+    border: 2px solid wheat;
     border-radius: 40px;
+    margin-left: 6em;
 }
 
-.myform fieldset {
+ #myform button:hover{
+    background-color: wheat;
+    color: rgb(86,56,16);
+}
+
+#myform fieldset {
     border: 0;
 }
 
@@ -281,7 +301,7 @@ button:hover {
 }
 
 a:hover {
-    background-color: #d65106;
+    background-color: #d69b06;
     border-radius: 4px;
     padding: 11px;
 }
@@ -325,7 +345,7 @@ a:hover {
     border-radius: 24px;
     }
     
-    .footer .row{
+    .footer .foot{
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
@@ -333,26 +353,26 @@ a:hover {
     font-size:0.8em;
     }
     
-    .footer .row a{
+    .footer .foot a{
     text-decoration:none;
     color:white;
     transition:0.5s;
     }
     
-    .footer .row a:hover{
+    .footer .foot a:hover{
     color:#fff;
     }
     
-    .footer .row ul{
+    .footer .foot ul{
     width:100%;
     }
     
-    .footer .row ul li{
+    .footer .foot ul li{
     display:inline-block;
     margin:0px 30px;
     }
     
-    .footer .row a i{
+    .footer .foot a i{
     font-size:2em;
     margin:0% 1%;
     }
@@ -362,12 +382,12 @@ a:hover {
     text-align:left;
     padding:5%;
     }
-    .footer .row ul li{
+    .footer .foot ul li{
     display:block;
     margin:10px 0px;
     text-align:left;
     }
-    .footer .row a i{
+    .footer .foot a i{
     margin:0% 3%;
     }
     }
