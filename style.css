@@ -313,7 +313,6 @@ section {
   padding-top: 80px;
   border-radius: 24px;
   }
-  
   .footer .row{
   width:100%;
   margin:1% 0%;
@@ -321,31 +320,25 @@ section {
   color:rgb(255, 255, 255);
   font-size:0.8em;
   }
-  
   .footer .row a{
   text-decoration:none;
   color:white;
   transition:0.5s;
   }
-  
   .footer .row a:hover{
   color:#fff;
   }
-  
   .footer .row ul{
   width:100%;
   }
-  
   .footer .row ul li{
   display:inline-block;
   margin:0px 30px;
   }
-  
   .footer .row a i{
   font-size:2em;
   margin:0% 1%;
   }
-  
   @media (max-width:720px){
   .footer{
   text-align:left;
