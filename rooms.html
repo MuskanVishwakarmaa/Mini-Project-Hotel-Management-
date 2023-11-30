@@ -9,13 +9,8 @@
 </head>
 
 <body>
-  <!-- <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Menu</a>
-      <a href="#">Rooms</a>
-      <a href="./slide.html">Contact us</a>
-    </nav> -->
+
+  <!-- Navbar -->
 
   <nav class="navbar">
     <div>
@@ -25,12 +20,12 @@
       <a href="index.html">HOME</a>
       <a href="index.html">ABOUT</a>
       <a href="rooms.html">STAYS</a>
-      <a href="project.html">MENU</a>
+      <a href="project.html" target="_main">MENU</a>
       <a href="contact.html">CONTACT US</a>
     </div>
   </nav>
 
-
+  <!-- Center Image -->
 
   <div class="slideshow-container">
     <div class="mySlides fade">
@@ -61,7 +56,9 @@
 
 
 
-  <!--middle section-->
+  <!--Room Booking Section-->
+
+
   <section>
     <h1>OUR ROOMS</h1>
 
@@ -73,7 +70,6 @@
         <div class="desc">$120.00 per night
           <h1>Suite Room</h1>
           <a href="#myform"><button>Book Now</button></a>
-
         </div>
       </div>
     </div>
@@ -166,6 +162,7 @@
       </div>
     </div>
 
+    <!-- Form for Room Booking -->
 
     <form id="myform" action="connect.php" method="post">
       <h1>Book Your Room</h1>
@@ -229,6 +226,10 @@
   <br>
   <br><br><br><br>
 
+
+  <!-- Script code -->
+
+
   <script>
     let slideIndex = 0;
     let timeoutId = null;
@@ -266,43 +267,44 @@
       if (timeoutId) {
         clearTimeout(timeoutId);
       }
-      timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
+      timeoutId = setTimeout(showSlides, 5000);
     }
   </script>
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!--GOOGLE FONTS-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
-</head>
+  <!-- Footer -->
 
-<body>
-<footer>
-    <div class="footer">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <footer>
+      <div class="footer">
         <div class="foot">
-            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
-            <a href="https://twitter.com/?lang=en-in"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+          <a href="https://twitter.com/?lang=en-in"><i class="fa fa-twitter"></i></a>
         </div>
 
         <div class="foot">
-            <ul>
-                <li><a href="contact.html">Contact us</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
+          <ul>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
         </div>
 
         <div class="foot">
-            HOTEL Copyright © 2021 Hotel: King The Land - All rights reserved
+          HOTEL Copyright © 2021 Hotel: King The Land - All rights reserved
         </div>
-    </div>
-</footer>
-</body>
+      </div>
+    </footer>
+  </body>
 
 </html>

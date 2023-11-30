@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 .homepage {
   background-image: url(./images/lobby.jpeg);
   height: 100vh;
@@ -17,7 +20,8 @@
 
 @keyframes change {
   0% {
-    background-image: url("./images/bedroom.jpeg");
+   
+    background-image: url('./images/lobby.jpg');
   }
 
   20% {
@@ -33,7 +37,7 @@
   }
 
   80% {
-    background-image: url('./images/lobby.jpeg');
+    background-image: url("./images/bedroom.jpeg");
   }
 
   100% {
@@ -42,12 +46,14 @@
 
 }
 
+/* Navbar */
+
 header img {
   border-radius: 60px;
 }
 
 header {
-  height: 180px;
+  height: 120px;
   min-width: fit-content;
   background-color: black;
   opacity: 0.8;
@@ -56,8 +62,8 @@ header {
 header .upper_logo {
   align-items: center;
   margin: 1em 15em 0em 46em;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
 }
 
 header .upper_logo:hover{
@@ -74,9 +80,8 @@ header .lower_logo {
   display: inline-flex;
   float: left;
   padding: 25px;
-  margin-top: -10px;
+  margin-top: -50px;
   justify-content: space-between;
-
 }
 .navbar ul li a {
   display: flex; 
@@ -86,6 +91,10 @@ header .lower_logo {
   font-size: 25px;
   border-radius: 60px;
   /* padding: 10px; */
+}
+
+.register{
+  color: white;
 }
 
 ul li a:hover {
@@ -102,60 +111,25 @@ ul li a:active {
   float: right;
 }
 
-/* .registration{
-  float: right;
-} */
 
 
-/* .registration ul li {
-  padding: 10px;
-  display: inline-flex;
-  list-style-type: none;
-  margin-right: 10px;
-  margin-top: 15px;
-  justify-content: space-between;
-}
+/* navbar end */
 
+/* -------------------------------------------------------------------------------------------- */
 
-.registration ul li a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 40px;
-  padding: 3px;
+/* Center Image */
 
-}
-
-.registration ul li a:hover{
-  color: darkblue;
-  background-color: #ccc;
-} */
 .container h2 {
-  font-family: algerian;
   font-weight: bold;
   text-align: center;
+  align-items: center;
   letter-spacing: 2px;
   line-height: 1.8;
-  padding-top: 20px;
+  padding-top: 200px;
   padding-bottom: 10px;
-  color: black;
+  color: rgb(254, 255, 255);
   font-size: 50px;
   font-style: italic;
-  /* margin-right: 40px; */
-}
-
-.container h6 {
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: 1.7;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  font-size: 16px;
-  background-color: rgb(179, 183, 186);
-  opacity: 0.7;
 }
 
 button {
@@ -179,34 +153,7 @@ button:hover {
 }
 
 
-
-section {
-  margin: 25px 10px 300px 10px;
-}
-
-#about h3 {
-  font-family: algerian;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 2px;
-  line-height: 1.7;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  color: black;
-  font-size: 25px;
-}
-
-#about p {
-  font-family: sans-serif;
-  font-style: italic;
-  text-align: center;
-}
-
-  
-  
-  
-
-/* box */
+/* booking section box */
 
 .header_container {
   padding: 1rem 1rem 5rem 1rem;
@@ -295,7 +242,7 @@ section {
 }
 
 
-/* reviews */
+/* Client Section */
 
 .client {
   background-color: lightcyan;
@@ -330,7 +277,29 @@ section {
   color: darkblue;
 }
 
+/* About */
 
+section {
+  margin: 25px 10px 300px 10px;
+}
+
+#about h3 {
+  font-family: algerian;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: black;
+  font-size: 25px;
+}
+
+#about p {
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+}
 
 /* footer */
 
