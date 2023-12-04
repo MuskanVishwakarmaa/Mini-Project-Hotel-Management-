@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -245,6 +246,7 @@ p {
     box-sizing: border-box;
     height: 350px;
     align-items: center;
+
 }
 
 .Tikki {
@@ -262,12 +264,14 @@ p {
     box-sizing: border-box;
     height: 350px;
     align-items: center;
+
 }
 
 .Chole {
     height: 180px;
     margin-top: 0px;
     width: 300px;
+
 }
 
 .Next {
@@ -284,6 +288,7 @@ p {
     box-sizing: border-box;
     height: 350px;
     align-items: center;
+
 }
 
 .I {
@@ -312,18 +317,21 @@ p {
     height: 180px;
     margin-top: 0px;
     width: 300px;
+
 }
 
 .Buna {
     height: 180px;
     margin-top: 0px;
     width: 300px;
+
 }
 
 .Cream {
     height: 180px;
     margin-top: 0px;
     width: 300px;
+
 }
 
 .type {
@@ -340,11 +348,13 @@ p {
 .U {
     border-color: #d65106;
     width: 300px;
+    /* padding-right: 500px; */
     margin-left: 10px;
     font-family: "Open Sans";
     box-sizing: border-box;
     height: 200px;
     align-items: center;
+
 }
 
 .middle {
@@ -355,6 +365,8 @@ p {
     margin-left: 100px;
     padding-top: 22px;
     border-radius: #d65106;
+
+
 }
 
 .gallery0 {
@@ -368,11 +380,13 @@ p {
 
 .V {
     width: 300px;
+    /* padding-right: 500px; */
     margin-left: 10px;
     font-family: "Open Sans";
     box-sizing: border-box;
     height: 350px;
     align-items: center;
+
 }
 
 .O {
