@@ -10,7 +10,7 @@ html {
 /* Navbar */
 
 header {
-    background-image: url(./images/a.jpg);
+    background-image: url(https://media.istockphoto.com/id/1424489174/photo/idly-sambar-or-idli-with-sambhar-and-green-red-chutney-popular-south-indian-breakfast.webp?b=1&s=170667a&w=0&k=20&c=gl4WL4GlHtwBoqB3aeKUAGEPFzQdKnTWWAbNwDHDAtM=);
     background-size: cover;
     margin-top: 0px;
     box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
@@ -67,15 +67,15 @@ a:hover {
 
 @keyframes changeImage {
     0% {
-        background-image: url(./images/a.jpg);
+        background-image: url(https://media.istockphoto.com/id/1306315890/photo/upma-or-rava-upma.webp?b=1&s=170667a&w=0&k=20&c=O_yDx1HRHgK1cjXFL2xyrtechhwnVW2MZ7k9k4SuMt0=);
     }
 
     25% {
-        background-image: url(./images/image7.jpg);
+        background-image: url(https://media.istockphoto.com/id/1258117088/photo/image-of-homemade-sausage-casserole-with-potatoes-carrots-and-beans-being-cooked-in-slow.webp?b=1&s=170667a&w=0&k=20&c=kLg_Octi47-vYwEdIzyUF7iM7e4F9GKt-9jpuBQ37MA=);
     }
 
     50% {
-        background-image: url(./images/image15.jpg);
+        background-image: url(https://media.istockphoto.com/id/482366402/photo/pongal.webp?b=1&s=170667a&w=0&k=20&c=4NQmZXiboaG5gi8VE3L5W50BcrB8NGb0yKo2CdkrAGE=);
     }
 }
 
