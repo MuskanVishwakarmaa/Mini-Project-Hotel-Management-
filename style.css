@@ -8,7 +8,7 @@ html{
   scroll-behavior: smooth;
 }
 .homepage {
-  background-image: url(./images/lobby.jpeg);
+  background-image: url(https://media.istockphoto.com/id/1333257950/photo/digitally-rendered-image-of-a-five-star-hotel-interior.webp?b=1&s=170667a&w=0&k=20&c=-wEtZwMRB8XR4wINAc-crH_uC6MImfnj0reN4S6M64c=);
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -21,27 +21,27 @@ html{
 @keyframes change {
   0% {
    
-    background-image: url('./images/lobby.jpg');
+    background-image: url('https://media.istockphoto.com/id/1333257950/photo/digitally-rendered-image-of-a-five-star-hotel-interior.webp?b=1&s=170667a&w=0&k=20&c=-wEtZwMRB8XR4wINAc-crH_uC6MImfnj0reN4S6M64c=');
   }
 
   20% {
-    background-image: url('./images/balcony.jpeg');
+    background-image: url('https://media.istockphoto.com/id/1051207584/photo/beautiful-golden-hour-and-himalayan-ranges-seen-from-hotel-room.webp?b=1&s=170667a&w=0&k=20&c=ehHZXrWkzPT10BHiima07QRqf0BaAjku71y8Hac3z60=');
   }
 
   40% {
-    background-image: url('./images/dinning.jpeg');
+    background-image: url('https://media.istockphoto.com/id/1166641819/photo/interior-of-modern-dining-room-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=edUso5xegLUBMZScPCjIeWJgmxvhrNl-aFywbVf1myU=');
   }
 
   60% {
-    background-image: url('./images/garden.jpeg');
+    background-image: url('https://media.istockphoto.com/id/1129420141/photo/lodhi-garden.webp?b=1&s=170667a&w=0&k=20&c=wNeE3qLLvxx1_ezJHW5V2xfwn4Cp_nHvc8QMYMyIcJ4=');
   }
 
   80% {
-    background-image: url("./images/bedroom.jpeg");
+    background-image: url("https://media.istockphoto.com/id/1282963974/photo/bedroom-in-the-modern-empty-hotel-room.webp?b=1&s=170667a&w=0&k=20&c=k8AV87qtvVT30E8xMnCEGcHXDrDY03W6q4fOG1XswJo=");
   }
 
   100% {
-    background-image: url('./images/pool.jpeg');
+    background-image: url('https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.webp?b=1&s=170667a&w=0&k=20&c=ah_EIbkQ3k7bSq9NB9_dsOe4NzQscK6isVjAOKKpL4c=');
   }
 
 }
